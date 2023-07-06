@@ -63,7 +63,7 @@ let data1 = {
   });
 
   let loadPhoto = (photoNumber) => {
-    $("#photo-image").attr("src", url(imagesData[photoNumber].photo));
+    $("#photo-image").attr("src", imagesData[photoNumber].photo);
     $("#photo-title").text(imagesData[photoNumber].title);
     $("#photo-description").text(imagesData[photoNumber].description);
     $("#thumbnails .thumbnailbox").removeClass("currentbox");
