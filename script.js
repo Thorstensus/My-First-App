@@ -1,53 +1,53 @@
 let data1 = {
-    photo: "images/img1.jpg",
+    photo: "/images/img1.jpg",
     title: "Graffiti",
     description: "V nemocnici sa nachádzalo veľa krásnych graffiti"
   };
 
   let data2 = {
-    photo: "images/img2.jpg",
+    photo: "/images/img2.jpg",
     title: "Pohľad z okna",
     description: "Na obrázku vidno strechy nižších poschodí"
   };
 
   let data3 = {
-    photo: "images/img3.jpg",
+    photo: "/images/img3.jpg",
     title: "Strecha",
     description: "Zo strechy bolo vidno Lamač a okolie"
   };
 
   let data4 = {
-    photo: "images/img4.jpg",
+    photo: "/images/img4.jpg",
     title: "Átrium",
     description: "Pohľad na átrium zo strechy"
   };
 
   let data5 = {
-    photo: "images/img5.jpg",
+    photo: "/images/img5.jpg",
     title: "Stopy v snehu",
     description: "Na streche sme za sebou nechali stopy v snehu"
   };
 
   let data6 = {
-    photo: "images/img6.jpg",
+    photo: "/images/img6.jpg",
     title: "Interiér",
     description: "Interiér budovy, na potrubí sú cencúle"
   };
 
   let data7 = {
-    photo: "images/img7.jpg",
+    photo: "/images/img7.jpg",
     title: "Diera v podľahe",
     description: "Cez dieru v podľahe vidno nižšie poschodie"
   };
 
   let data8 = {
-    photo: "images/img8.jpg",
+    photo: "/images/img8.jpg",
     title: "Veľká diera",
     description: "Boli tu aj väčšie diery, cez niektoré sa dokonca dalo prepadnúť"
   };
 
   let data9 = {
-    photo: "images/img9.jpg",
+    photo: "/images/img9.jpg",
     title: "Autori",
     description: "Fotografia jedného z autorov"
   };
