@@ -1,53 +1,53 @@
 let data1 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img1.jpg",
+    photo: "https://imgur.com/5RjlEtE",
     title: "Graffiti",
     description: "V nemocnici sa nachádzalo veľa krásnych graffiti"
   };
 
   let data2 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img2.jpg",
+    photo: "https://imgur.com/ysTHRiE",
     title: "Pohľad z okna",
     description: "Na obrázku vidno strechy nižších poschodí"
   };
 
   let data3 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img3.jpg",
+    photo: "https://imgur.com/q10iV8O",
     title: "Strecha",
     description: "Zo strechy bolo vidno Lamač a okolie"
   };
 
   let data4 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img4.jpg",
+    photo: "https://imgur.com/gXIYjut",
     title: "Átrium",
     description: "Pohľad na átrium zo strechy"
   };
 
   let data5 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img5.jpg",
+    photo: "https://imgur.com/XJNnMIH",
     title: "Stopy v snehu",
     description: "Na streche sme za sebou nechali stopy v snehu"
   };
 
   let data6 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img6.jpg",
+    photo: "https://imgur.com/n9bg8F8",
     title: "Interiér",
     description: "Interiér budovy, na potrubí sú cencúle"
   };
 
   let data7 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img7.jpg",
+    photo: "https://imgur.com/iBJpUpk",
     title: "Diera v podľahe",
     description: "Cez dieru v podľahe vidno nižšie poschodie"
   };
 
   let data8 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img8.jpg",
+    photo: "https://imgur.com/ccfbImF",
     title: "Veľká diera",
     description: "Boli tu aj väčšie diery, cez niektoré sa dokonca dalo prepadnúť"
   };
 
   let data9 = {
-    photo: "https://thorstensus.github.io/docs/assets/images/img9.jpg",
+    photo: "https://imgur.com/9tJCvuX",
     title: "Autori",
     description: "Fotografia jedného z autorov"
   };
