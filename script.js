@@ -17,7 +17,7 @@ let data1 = {
   };
 
   let data4 = {
-    photo: "https://imgur.com/gXIYjut",
+    photo: "https://thorstensus.github.io/docs/assets/images/img1.jpg",
     title: "Átrium",
     description: "Pohľad na átrium zo strechy"
   };
