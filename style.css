@@ -1,0 +1,168 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px;
+    background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-background-with-falling-numbers_1017-25336.jpg?w=1060&t=st=1688592063~exp=1688592663~hmac=0ec39ec067b7d7669c918f19e7596e8a99223984246c8b8ca8c9f283e85351b4")
+}
+
+.photoframe {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    box-shadow: 1px 4px 5px green
+}
+
+.leftarrow {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    background-color: green
+}
+
+.mainphoto {
+    width: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.rightarrow {
+    display: flex;
+    transform: rotate(0.5turn);
+    justify-content: center;
+    width: 10%;
+    background-color: green
+}
+
+.thumbnail-container {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20px;
+    height: 60px
+}
+
+.leftarrow:hover {
+    opacity: 50%
+}
+
+.rightarrow:hover {
+    opacity: 50%
+}
+
+.photo-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    color: white
+}
+
+h1 {
+    color: white;
+    opacity: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Comic Sans MS";
+    font-size: 18px;
+    margin-left: 10px;
+    position: relative
+}
+
+p {
+    color: white;
+    opacity: 100%;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    position: relative
+}
+
+.thumbnailbox {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    margin-bottom: 0px;
+    border: 3px solid green;
+    box-shadow: 0px 2px 5px lime;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thumbnailbox:hover {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 3px solid green;
+    box-shadow: 0px 2px 5px lime;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.currentbox {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 3px solid green;
+    box-shadow: 0px 3px 4px lime;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.currentbox::before {
+    content: "";
+    position: absolute;
+    top: -12px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid lime; 
+  }
+
+  .thumbnail-text {
+    display: inline-flex;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: lime;
+    padding: 5px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    text-align: center; 
+    white-space: nowrap; 
+    border: 1px solid lime;
+  }
+
+  .thumbnail-text::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid lime;
+  }
+  
+.thumbnailbox:hover .thumbnail-text {
+    display: block;
+  }
