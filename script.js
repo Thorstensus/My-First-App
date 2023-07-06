@@ -1,5 +1,5 @@
 let data1 = {
-    photo: "https://imgur.com/5RjlEtE",
+    photo: "docs/assets/images/img1.jpg",
     title: "Graffiti",
     description: "V nemocnici sa nachádzalo veľa krásnych graffiti"
   };
