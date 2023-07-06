@@ -5,13 +5,13 @@ let data1 = {
   };
 
   let data2 = {
-    photo: "https://imgur.com/ysTHRiE",
+    photo: "/docs/assets/images/img1.jpg",
     title: "Pohľad z okna",
     description: "Na obrázku vidno strechy nižších poschodí"
   };
 
   let data3 = {
-    photo: "https://imgur.com/q10iV8O",
+    photo: "./docs/assets/images/img1.jpg",
     title: "Strecha",
     description: "Zo strechy bolo vidno Lamač a okolie"
   };
